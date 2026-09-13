@@ -1,3 +1,40 @@
+# --- Secrets / environment ---
 .env
+.env.*
+!.env.example
+
+# --- Python bytecode / cache ---
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyd
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Python packaging / test / lint caches ---
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDE / editor metadata ---
+.vscode/
+.idea/
+app/.claude/
+
+# --- OS-generated files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Project-specific generated/downloaded artifacts ---
+app/.tmp_downloads/
